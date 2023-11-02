@@ -6,12 +6,12 @@ include 'inc/koneksi.php';
  $fotoproduk = $data['foto_produk'];
  if (file_exists("../images/produk/$fotoproduk"))
  {
-    unlink("../images/produk/$fotoproduk");
+   unlink("../images/produk/$fotoproduk");
  }
 
 
-    $sql=mysqli_query($config,"DELETE from produk WHERE id_produk='$_GET[id]'");
+   $sql=mysqli_query($config,"DELETE from produk WHERE id_produk='$_GET[id]'");
 
-    echo "<script>alert('Data Produk Berhasil Di HAPUS!');<?script>";
-    echo "<script.location='index.php?page=produk';</script>";
+   echo "<script>alert('Data Produk Berhasil Di HAPUS!');<?script>";
+   echo "<script>location='index.php?page=produk';</script>";
 ?>
