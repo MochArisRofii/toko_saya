@@ -40,10 +40,10 @@ if ($_SESSION['pelanggan']['id_pelanggan'] !== $detil_pembayaran['id_pelanggan']
                     <td><?php echo number_format($detil_pembayaran['jumlah'], 0, ",", "."); ?></td>
                 </tr>
             </table>
-            <div class="col-md-6">
-                <img src="images/bukti_pembayaran/<?php echo $detil_pembayaran['bukti'] ?>" alt=""
-                class="img-responsive">
-            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="images/bukti_pembayaran/<?php echo $detil_pembayaran['bukti'] ?>" alt=""
+            class="img-responsive">
         </div>
     </div>
 </div>

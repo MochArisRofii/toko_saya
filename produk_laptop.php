@@ -1,5 +1,5 @@
 <?php include 'slider.php'; ?>
-<h4 class="text-center text-info font-weight-bold m-4">Produk Terbaru</h4>
+<h4 class="text-center text-info font-weight-bold m-4">PRODUK TERBARU</h4>
 <div class="row mx-auto">
     <?php
     $sql = mysqli_query($config, "SELECT * FROM produk WHERE kategori='Laptop'");

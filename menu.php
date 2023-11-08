@@ -35,8 +35,8 @@
         <div class="col-md-2 bg-light">
             <ul class="list-group list-group-flush p-2 pt-4">
                 <li class="list-group-item bg-warning"><i class="fas fa-list"></i>KATEGORI PRODUK</li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Handphone</li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Laptop</li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=produkhp">Handphone</a></li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=produklaptop">Laptop</a></li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i>Elektronik</li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i>Aksesoris Hp</li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i>Aksesoris Laptop</li>
