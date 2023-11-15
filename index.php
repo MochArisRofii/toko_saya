@@ -54,6 +54,14 @@
                         include 'produk_hp.php';
                     } elseif($_GET['page'] == "produklaptop") {
                         include 'produk_laptop.php';
+                    } elseif($_GET['page'] == "elektronik") {
+                        include 'elektronik.php';
+                    } elseif($_GET['page'] == "AksesorisHp") {
+                        include 'Aksesoris_hp.php';
+                    } elseif($_GET['page'] == "AksesorisLaptop") {
+                        include 'Aksesoris_laptop.php';
+                    } elseif($_GET['page'] == "AksesorisElektronik") {
+                        include 'Aksesoris_elektronik.php';
                     }
                 } else {
                     include 'produk.php';

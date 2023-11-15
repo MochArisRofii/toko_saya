@@ -46,10 +46,10 @@
                 <li class="list-group-item bg-warning"><i class="fas fa-list"></i>KATEGORI PRODUK</li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=produkhp" style="text-decoration: none; color:black">Handphone</a></li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=produklaptop" style="text-decoration: none; color:black">Laptop</a></li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Elektronik</li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Aksesoris Hp</li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Aksesoris Laptop</li>
-                <li class="list-group-item"><i class="fas fa-angle-right"></i>Aksesoris Elektronik</li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=elektronik" style="text-decoration: none; color:black">Elektronik</a></li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=AksesorisHp" style="text-decoration: none; color:black">Aksesoris HP</a></li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=AksesorisLaptop" style="text-decoration: none; color:black">Aksesoris Laptop</a></li>
+                <li class="list-group-item"><i class="fas fa-angle-right"></i><a href="index.php?page=AksesorisElektronik" style="text-decoration: none; color:black">Aksesoris Elektronik</a></li>
             </ul>
         </div>
         <div class="col-md-10">
