@@ -46,6 +46,14 @@
                     <hr class="bg-primary">
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-white" href="index.php?page=ongkir"><i class="fas fa-solid fa-truck mr-2"></i>Ongkir/Tarif</a>
+                    <hr class="bg-primary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.php?page=slider"><i class="fas fa-regular fa-camera mr-2"></i>Slider</a>
+                    <hr class="bg-primary">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-white" href="index.php?page=pelanggan"><i class="fas fa-users mr-2"></i>Pelanggan</a>
                     <hr class="bg-primary">
                 </li>
@@ -76,6 +84,14 @@
                     include 'detail_pembelian.php';
                 }elseif($_GET['page']=="hapuspelanggan"){
                     include 'hapuspelanggan.php';
+                }elseif($_GET['page']=="ongkir"){
+                    include 'ongkir.php';
+                }elseif($_GET['page']=="ubahongkir"){
+                    include 'ubahongkir.php';
+                }elseif($_GET['page']=="tambahongkir"){
+                    include 'tambahongkir.php';
+                }elseif($_GET['page']=="slider"){
+                    include 'slider.php';
                 }
             }else{
                 include 'home.php';
