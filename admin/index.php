@@ -92,6 +92,8 @@
                     include 'tambahongkir.php';
                 }elseif($_GET['page']=="slider"){
                     include 'slider.php';
+                }elseif($_GET['page']=="ubahslider"){
+                    include 'ubahslinder.php';
                 }
             }else{
                 include 'home.php';

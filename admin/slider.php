@@ -2,7 +2,7 @@
 <hr>
 <form method="post">
     <div class="form-group form-inline">
-        <input type="text" class="form-control mr-2" name="cari" placeholder="Ketik nama produk...."/>
+        <input type="text" class="form-control mr-2" name="cari" placeholder="Ketik nama slider...."/>
         <button class="btn btn-success" name="tombol_cari">Cari</button>
     </div>
 </form>
@@ -44,7 +44,7 @@
                         title='klik to Zoom' target="_blank">
                         <img src="../images/slider/<?php echo $data['foto']; ?>" width=100></a>
                     </td>
-                    <td><a href="index.php?page=#&id=<?php echo $data['id_slider']; ?>"
+                    <td><a href="index.php?page=ubahslider&id=<?php echo $data['id_slider']; ?>"
                         class="btn btn-info mr-2">Ubah</a>
                     </td>
                 </tr>

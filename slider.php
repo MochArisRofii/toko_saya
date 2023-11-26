@@ -1,13 +1,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/slinder/slider1.png" class="d-block w-100" alt="...">
+            <img src="images/slider/slider1.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/slinder/slider2.png" class="d-block w-100" alt="...">
+            <img src="images/slider/slider2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/slinder/slider3.png" class="d-block w-100" alt="...">
+            <img src="images/slider/slider3.png" class="d-block w-100" alt="...">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
