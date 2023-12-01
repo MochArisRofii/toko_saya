@@ -1,7 +1,13 @@
+<?php include 'admin/inc/koneksi.php'; ?>
+<?php 
+    $id = mysqli_query($config, "SELECT * FROM slider WHERE id_slider='$_GET[id]'");
+    $data = mysqli_fetch_assoc($id);
+    
+?>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/slider/slider1.png" class="d-block w-100" alt="...">
+            <img src="../images/slider/<?php echo $data['foto'] ?>" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
             <img src="images/slider/slider2.png" class="d-block w-100" alt="...">
